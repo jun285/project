@@ -1,7 +1,7 @@
 {
   "name": "Python 3.12",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "postCreateCommand": "echo \"alias run='python main.py'\" | tee -a ~/.bashrc ~/.zshrc",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python", "ms-vsliveshare.vsliveshare"],
