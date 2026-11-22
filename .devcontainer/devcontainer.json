@@ -12,15 +12,7 @@
         "chat.disableAIFeatures": true,
         "github.copilot.enable": { "*": false },
         "github.copilot.nextEditSuggestions.enabled": false,
-        "editor.inlineSuggest.enabled": false,
-
-        "workbench.layoutControl.enabled": false,
-        "window.commandCenter": false,
-        "workbench.startupEditor": "none",
-        "workbench.tips.enabled": false,
-        "breadcrumbs.enabled": false,
-        "editor.minimap.enabled": false,
-        "remote.autoForwardPorts": false
+        "editor.inlineSuggest.enabled": false
       }
     }
   }
