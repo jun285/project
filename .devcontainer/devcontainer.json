@@ -4,7 +4,15 @@
   "postCreateCommand": "echo \"alias run='python main.py'\" | tee -a ~/.bashrc ~/.zshrc",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python"]
+      "extensions": ["ms-python.python"],
+      "settings": {
+        "scm.diffDecorations": "none",
+        "git.decorations.enabled": false,
+        "chat.disableAIFeatures": true,
+        "github.copilot.enable": { "*": false },
+        "github.copilot.nextEditSuggestions.enabled": false,
+        "editor.inlineSuggest.enabled": false
+      }
     }
   }
 }
